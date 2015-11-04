@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91ACDE491BE9833500F554F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACDE481BE9833500F554F9 /* AppDelegate.swift */; };
+		91ACDE4B1BE9833500F554F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACDE4A1BE9833500F554F9 /* ViewController.swift */; };
+		91ACDE4E1BE9833500F554F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE4C1BE9833500F554F9 /* Main.storyboard */; };
+		91ACDE501BE9833500F554F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE4F1BE9833500F554F9 /* Assets.xcassets */; };
+		91ACDE531BE9833500F554F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE511BE9833500F554F9 /* LaunchScreen.storyboard */; };
+		91ACDE5E1BE9833500F554F9 /* SpartaMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACDE5D1BE9833500F554F9 /* SpartaMapsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91ACDE5A1BE9833500F554F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91ACDE3D1BE9833500F554F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91ACDE441BE9833500F554F9;
+			remoteInfo = SpartaMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91ACDE451BE9833500F554F9 /* SpartaMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartaMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91ACDE481BE9833500F554F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91ACDE4A1BE9833500F554F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91ACDE4D1BE9833500F554F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91ACDE4F1BE9833500F554F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91ACDE521BE9833500F554F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91ACDE541BE9833500F554F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91ACDE591BE9833500F554F9 /* SpartaMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpartaMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91ACDE5D1BE9833500F554F9 /* SpartaMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpartaMapsTests.swift; sourceTree = "<group>"; };
+		91ACDE5F1BE9833500F554F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91ACDE421BE9833500F554F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ACDE561BE9833500F554F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91ACDE3C1BE9833500F554F9 = {
+			isa = PBXGroup;
+			children = (
+				91ACDE471BE9833500F554F9 /* SpartaMaps */,
+				91ACDE5C1BE9833500F554F9 /* SpartaMapsTests */,
+				91ACDE461BE9833500F554F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91ACDE461BE9833500F554F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91ACDE451BE9833500F554F9 /* SpartaMaps.app */,
+				91ACDE591BE9833500F554F9 /* SpartaMapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91ACDE471BE9833500F554F9 /* SpartaMaps */ = {
+			isa = PBXGroup;
+			children = (
+				91ACDE481BE9833500F554F9 /* AppDelegate.swift */,
+				91ACDE4A1BE9833500F554F9 /* ViewController.swift */,
+				91ACDE4C1BE9833500F554F9 /* Main.storyboard */,
+				91ACDE4F1BE9833500F554F9 /* Assets.xcassets */,
+				91ACDE511BE9833500F554F9 /* LaunchScreen.storyboard */,
+				91ACDE541BE9833500F554F9 /* Info.plist */,
+			);
+			path = SpartaMaps;
+			sourceTree = "<group>";
+		};
+		91ACDE5C1BE9833500F554F9 /* SpartaMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				91ACDE5D1BE9833500F554F9 /* SpartaMapsTests.swift */,
+				91ACDE5F1BE9833500F554F9 /* Info.plist */,
+			);
+			path = SpartaMapsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91ACDE441BE9833500F554F9 /* SpartaMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91ACDE621BE9833500F554F9 /* Build configuration list for PBXNativeTarget "SpartaMaps" */;
+			buildPhases = (
+				91ACDE411BE9833500F554F9 /* Sources */,
+				91ACDE421BE9833500F554F9 /* Frameworks */,
+				91ACDE431BE9833500F554F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartaMaps;
+			productName = SpartaMaps;
+			productReference = 91ACDE451BE9833500F554F9 /* SpartaMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91ACDE581BE9833500F554F9 /* SpartaMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91ACDE651BE9833500F554F9 /* Build configuration list for PBXNativeTarget "SpartaMapsTests" */;
+			buildPhases = (
+				91ACDE551BE9833500F554F9 /* Sources */,
+				91ACDE561BE9833500F554F9 /* Frameworks */,
+				91ACDE571BE9833500F554F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91ACDE5B1BE9833500F554F9 /* PBXTargetDependency */,
+			);
+			name = SpartaMapsTests;
+			productName = SpartaMapsTests;
+			productReference = 91ACDE591BE9833500F554F9 /* SpartaMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91ACDE3D1BE9833500F554F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jatin;
+				TargetAttributes = {
+					91ACDE441BE9833500F554F9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					91ACDE581BE9833500F554F9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 91ACDE441BE9833500F554F9;
+					};
+				};
+			};
+			buildConfigurationList = 91ACDE401BE9833500F554F9 /* Build configuration list for PBXProject "SpartaMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91ACDE3C1BE9833500F554F9;
+			productRefGroup = 91ACDE461BE9833500F554F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91ACDE441BE9833500F554F9 /* SpartaMaps */,
+				91ACDE581BE9833500F554F9 /* SpartaMapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91ACDE431BE9833500F554F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ACDE531BE9833500F554F9 /* LaunchScreen.storyboard in Resources */,
+				91ACDE501BE9833500F554F9 /* Assets.xcassets in Resources */,
+				91ACDE4E1BE9833500F554F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ACDE571BE9833500F554F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91ACDE411BE9833500F554F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ACDE4B1BE9833500F554F9 /* ViewController.swift in Sources */,
+				91ACDE491BE9833500F554F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ACDE551BE9833500F554F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ACDE5E1BE9833500F554F9 /* SpartaMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91ACDE5B1BE9833500F554F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91ACDE441BE9833500F554F9 /* SpartaMaps */;
+			targetProxy = 91ACDE5A1BE9833500F554F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91ACDE4C1BE9833500F554F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91ACDE4D1BE9833500F554F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91ACDE511BE9833500F554F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91ACDE521BE9833500F554F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91ACDE601BE9833500F554F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91ACDE611BE9833500F554F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91ACDE631BE9833500F554F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpartaMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spartans.SpartaMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91ACDE641BE9833500F554F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpartaMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spartans.SpartaMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91ACDE661BE9833500F554F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpartaMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spartans.SpartaMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpartaMaps.app/SpartaMaps";
+			};
+			name = Debug;
+		};
+		91ACDE671BE9833500F554F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpartaMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spartans.SpartaMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpartaMaps.app/SpartaMaps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91ACDE401BE9833500F554F9 /* Build configuration list for PBXProject "SpartaMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91ACDE601BE9833500F554F9 /* Debug */,
+				91ACDE611BE9833500F554F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91ACDE621BE9833500F554F9 /* Build configuration list for PBXNativeTarget "SpartaMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91ACDE631BE9833500F554F9 /* Debug */,
+				91ACDE641BE9833500F554F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91ACDE651BE9833500F554F9 /* Build configuration list for PBXNativeTarget "SpartaMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91ACDE661BE9833500F554F9 /* Debug */,
+				91ACDE671BE9833500F554F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91ACDE3D1BE9833500F554F9 /* Project object */;
+}
