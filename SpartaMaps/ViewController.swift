@@ -14,6 +14,8 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
     let garageStr = "south parking garage"
     var selectedTag : Int = -1
     
+    var flag=false;
+    
     //MARK: Properties
     
     @IBOutlet weak var searchField: UISearchBar!
@@ -37,6 +39,8 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
     
     var latitude : Double = 0.0
     var longitude : Double = 0.0
+    
+    let appSettings : AppSettings = AppSettings();
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,17 +69,40 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
         
     }
     
-    func getLocationManager(){
-        locationManager = CLLocationManager()
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization();
-        locationManager.startUpdatingLocation()
+    override func viewDidAppear(animated: Bool) {
+        
+        if (appSettings.getContentOffset() != CGPointZero) {
+            
+            self.scrollViewObj.zoomScale = appSettings.getZoom();
+            self.scrollViewObj.contentOffset = appSettings.getContentOffset();
+        }
     }
     
+    func getLocationManager(){
+        
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager = CLLocationManager()
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.requestWhenInUseAuthorization();
+            locationManager.startUpdatingLocation()
+            flag=true;
+        }else{
+            let alertController = UIAlertController(title: "Settings", message:
+                "Please enable your Location from Privacy Settings!!!", preferredStyle: UIAlertControllerStyle.Alert)
+                    alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+            self.presentViewController(alertController, animated: true, completion: nil)
+            flag=false;
+        }
+        
+        
+    }
+    
+
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if segue.identifier == "showDetailsView" {
+        if (segue.identifier == "showDetailsView" && flag==true){
             
             let detailsViewController = segue.destinationViewController as! DetailViewController;
             let model = DetailModel()
@@ -129,9 +156,9 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
             model.longitude = longitude
             detailsViewController.model = model
                         
+        }else{
+            getLocationManager();
         }
-        
-        
         print("selected tag:  \(selectedTag)")
     }
 
@@ -178,13 +205,11 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
     
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String)
     {
-
-        
         var searchQuery: String = ""
         searchQuery =  searchBar.text!
         searchQuery = searchQuery.lowercaseString
 
-        
+       
         if libStr.rangeOfString(searchQuery) != nil {
             
             self.makeButtonVisible(self.libButtonObj)
@@ -226,7 +251,6 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
         }
         
         
-        
     }
     
     func makeButtonVisible(button: UIButton)
@@ -264,7 +288,13 @@ class ViewController: UIViewController,UISearchBarDelegate, UIScrollViewDelegate
         
         
     }
+    
+    
+    func scrollViewDidEndZooming(scrollView: UIScrollView, withView view: UIView?, atScale scale: CGFloat) {
         
+        appSettings.setContentOffset(scrollView.contentOffset);
+        appSettings.setZoom(scrollView.zoomScale);
+    }
    
 }
 
