@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91155A7D1BEC0C1900B82091 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91155A7C1BEC0C1900B82091 /* DetailModel.swift */; };
+		91155A7F1BEC28CE00B82091 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91155A7E1BEC28CE00B82091 /* DetailViewController.swift */; };
+		917A59731BF291C500FB9115 /* map2.png in Resources */ = {isa = PBXBuildFile; fileRef = 917A59721BF291C500FB9115 /* map2.png */; };
+		917A59751BF2A82200FB9115 /* campusmap_copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 917A59741BF2A82200FB9115 /* campusmap_copy.jpg */; };
+		917A59771BF2BE5500FB9115 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A59761BF2BE5500FB9115 /* CoreLocation.framework */; };
+		917A59791BF2F98A00FB9115 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 917A59781BF2F98A00FB9115 /* pin.png */; };
 		91ACDE491BE9833500F554F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACDE481BE9833500F554F9 /* AppDelegate.swift */; };
 		91ACDE4B1BE9833500F554F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACDE4A1BE9833500F554F9 /* ViewController.swift */; };
 		91ACDE4E1BE9833500F554F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE4C1BE9833500F554F9 /* Main.storyboard */; };
 		91ACDE501BE9833500F554F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE4F1BE9833500F554F9 /* Assets.xcassets */; };
 		91ACDE531BE9833500F554F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE511BE9833500F554F9 /* LaunchScreen.storyboard */; };
 		91ACDE5E1BE9833500F554F9 /* SpartaMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACDE5D1BE9833500F554F9 /* SpartaMapsTests.swift */; };
+		91ACDE6A1BE99F4000F554F9 /* campusmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91ACDE691BE99F4000F554F9 /* campusmap.jpg */; };
+		91E83A5C1BEEEBA700909202 /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E83A5B1BEEEBA700909202 /* library.jpg */; };
+		91E83A621BEEF11500909202 /* bbc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E83A5D1BEEF11500909202 /* bbc.jpg */; };
+		91E83A631BEEF11500909202 /* engineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E83A5E1BEEF11500909202 /* engineering.jpg */; };
+		91E83A641BEEF11500909202 /* garage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E83A5F1BEEF11500909202 /* garage.jpg */; };
+		91E83A651BEEF11500909202 /* sunion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E83A601BEEF11500909202 /* sunion.jpg */; };
+		91E83A661BEEF11500909202 /* yuh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E83A611BEEF11500909202 /* yuh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91155A7C1BEC0C1900B82091 /* DetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		91155A7E1BEC28CE00B82091 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		917A59721BF291C500FB9115 /* map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map2.png; path = ../../Downloads/map2.png; sourceTree = "<group>"; };
+		917A59741BF2A82200FB9115 /* campusmap_copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = campusmap_copy.jpg; path = ../campusmap_copy.jpg; sourceTree = "<group>"; };
+		917A59761BF2BE5500FB9115 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		917A59781BF2F98A00FB9115 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = SpartaMaps/pin.png; sourceTree = "<group>"; };
 		91ACDE451BE9833500F554F9 /* SpartaMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartaMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ACDE481BE9833500F554F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91ACDE4A1BE9833500F554F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +55,13 @@
 		91ACDE591BE9833500F554F9 /* SpartaMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpartaMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ACDE5D1BE9833500F554F9 /* SpartaMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpartaMapsTests.swift; sourceTree = "<group>"; };
 		91ACDE5F1BE9833500F554F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91ACDE691BE99F4000F554F9 /* campusmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = campusmap.jpg; path = ../campusmap.jpg; sourceTree = "<group>"; };
+		91E83A5B1BEEEBA700909202 /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = library.jpg; path = ../../Downloads/library.jpg; sourceTree = "<group>"; };
+		91E83A5D1BEEF11500909202 /* bbc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bbc.jpg; path = ../../Downloads/bbc.jpg; sourceTree = "<group>"; };
+		91E83A5E1BEEF11500909202 /* engineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = engineering.jpg; path = ../../Downloads/engineering.jpg; sourceTree = "<group>"; };
+		91E83A5F1BEEF11500909202 /* garage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = garage.jpg; path = ../../Downloads/garage.jpg; sourceTree = "<group>"; };
+		91E83A601BEEF11500909202 /* sunion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sunion.jpg; path = ../../Downloads/sunion.jpg; sourceTree = "<group>"; };
+		91E83A611BEEF11500909202 /* yuh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yuh.jpg; path = ../../Downloads/yuh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917A59771BF2BE5500FB9115 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +86,8 @@
 		91ACDE3C1BE9833500F554F9 = {
 			isa = PBXGroup;
 			children = (
+				917A59761BF2BE5500FB9115 /* CoreLocation.framework */,
+				91ACDE681BE99EB200F554F9 /* images */,
 				91ACDE471BE9833500F554F9 /* SpartaMaps */,
 				91ACDE5C1BE9833500F554F9 /* SpartaMapsTests */,
 				91ACDE461BE9833500F554F9 /* Products */,
@@ -77,9 +106,11 @@
 		91ACDE471BE9833500F554F9 /* SpartaMaps */ = {
 			isa = PBXGroup;
 			children = (
+				91155A7E1BEC28CE00B82091 /* DetailViewController.swift */,
 				91ACDE481BE9833500F554F9 /* AppDelegate.swift */,
 				91ACDE4A1BE9833500F554F9 /* ViewController.swift */,
 				91ACDE4C1BE9833500F554F9 /* Main.storyboard */,
+				91155A7C1BEC0C1900B82091 /* DetailModel.swift */,
 				91ACDE4F1BE9833500F554F9 /* Assets.xcassets */,
 				91ACDE511BE9833500F554F9 /* LaunchScreen.storyboard */,
 				91ACDE541BE9833500F554F9 /* Info.plist */,
@@ -94,6 +125,23 @@
 				91ACDE5F1BE9833500F554F9 /* Info.plist */,
 			);
 			path = SpartaMapsTests;
+			sourceTree = "<group>";
+		};
+		91ACDE681BE99EB200F554F9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				917A59741BF2A82200FB9115 /* campusmap_copy.jpg */,
+				917A59781BF2F98A00FB9115 /* pin.png */,
+				917A59721BF291C500FB9115 /* map2.png */,
+				91E83A5D1BEEF11500909202 /* bbc.jpg */,
+				91E83A5E1BEEF11500909202 /* engineering.jpg */,
+				91E83A5F1BEEF11500909202 /* garage.jpg */,
+				91E83A601BEEF11500909202 /* sunion.jpg */,
+				91E83A611BEEF11500909202 /* yuh.jpg */,
+				91ACDE691BE99F4000F554F9 /* campusmap.jpg */,
+				91E83A5B1BEEEBA700909202 /* library.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +194,7 @@
 				TargetAttributes = {
 					91ACDE441BE9833500F554F9 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ME6U4HAJYS;
 					};
 					91ACDE581BE9833500F554F9 = {
 						CreatedOnToolsVersion = 7.1;
@@ -177,9 +226,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E83A641BEEF11500909202 /* garage.jpg in Resources */,
+				91E83A5C1BEEEBA700909202 /* library.jpg in Resources */,
 				91ACDE531BE9833500F554F9 /* LaunchScreen.storyboard in Resources */,
 				91ACDE501BE9833500F554F9 /* Assets.xcassets in Resources */,
+				91E83A661BEEF11500909202 /* yuh.jpg in Resources */,
+				917A59731BF291C500FB9115 /* map2.png in Resources */,
+				91E83A631BEEF11500909202 /* engineering.jpg in Resources */,
+				91E83A621BEEF11500909202 /* bbc.jpg in Resources */,
 				91ACDE4E1BE9833500F554F9 /* Main.storyboard in Resources */,
+				91E83A651BEEF11500909202 /* sunion.jpg in Resources */,
+				917A59751BF2A82200FB9115 /* campusmap_copy.jpg in Resources */,
+				91ACDE6A1BE99F4000F554F9 /* campusmap.jpg in Resources */,
+				917A59791BF2F98A00FB9115 /* pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91155A7D1BEC0C1900B82091 /* DetailModel.swift in Sources */,
 				91ACDE4B1BE9833500F554F9 /* ViewController.swift in Sources */,
 				91ACDE491BE9833500F554F9 /* AppDelegate.swift in Sources */,
+				91155A7F1BEC28CE00B82091 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpartaMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spartans.SpartaMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -338,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpartaMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spartans.SpartaMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -388,6 +455,7 @@
 				91ACDE641BE9833500F554F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91ACDE651BE9833500F554F9 /* Build configuration list for PBXNativeTarget "SpartaMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +464,7 @@
 				91ACDE671BE9833500F554F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
